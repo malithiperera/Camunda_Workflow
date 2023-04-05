@@ -1,0 +1,30 @@
+{
+  "components": [
+    {
+      "text": "# Workflow Details",
+      "type": "text",
+      "id": "Field_0bbwrip"
+    },
+    {
+      "label": "Request ID",
+      "type": "textfield",
+      "id": "Field_17y8mh1",
+      "key": "requestID"
+    },
+    {
+      "label": "Username",
+      "type": "textfield",
+      "id": "Field_0dl2srt",
+      "key": "Username"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0tcvihx",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.9.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}
