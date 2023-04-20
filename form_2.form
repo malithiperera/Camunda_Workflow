@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "text": "# Review Request",
+      "type": "text",
+      "id": "Field_1ki6mt7"
+    },
+    {
+      "label": "Request ID",
+      "type": "textfield",
+      "id": "Field_1c3fhn3",
+      "key": "requestID",
+      "disabled": true
+    },
+    {
+      "label": "Username",
+      "type": "textfield",
+      "id": "Field_0dpoge1",
+      "key": "Username",
+      "disabled": true
+    },
+    {
+      "label": "Assign Role",
+      "type": "textfield",
+      "id": "Field_0m3914f",
+      "key": "Roles",
+      "disabled": true
+    },
+    {
+      "values": [
+        {
+          "label": "Approve",
+          "value": "APPROVED"
+        },
+        {
+          "label": "Reject",
+          "value": "REJECTED"
+        }
+      ],
+      "label": "Decision",
+      "type": "radio",
+      "id": "Field_18dmoxd",
+      "key": "decision",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1vzu8hz",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.9.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}
